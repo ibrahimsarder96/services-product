@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import CustomLink from '../CustomLink/CustomLink';
-import logo from '../../assets/Logo/logo.png'
+// import logo from '../../assets/Logo/logo.png'
 // import Loading from './Loading';
 
 
@@ -34,7 +34,8 @@ const Navbar = () => {
         {menuItem}
       </ul>
     </div>
-    <Link to='/' className="font-extrabold normal-case text-lime-400 lg:text-4xl "><img src={logo} className="w-36" alt="" /></Link>
+    <Link to='/' className="font-extrabold normal-case text-lime-400 lg:text-4xl "><h1>Mans Power</h1></Link>
+    {/* <Link to='/' className="font-extrabold normal-case text-lime-400 lg:text-4xl "><img src={logo} className="w-36" alt="" /></Link> */}
   </div>
   <div className="navbar-center hidden lg:flex">
   <ul className="menu menu-horizontal p-0 pl-96 ml-64">
