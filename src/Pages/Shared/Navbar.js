@@ -19,6 +19,7 @@ const Navbar = () => {
   // };
 
   const menuItem = <>
+    <li className='text-xl '><CustomLink to="/">Home</CustomLink></li>
     <li className='text-xl '><CustomLink to="/contact">Contact Us</CustomLink></li>
     <li className='text-xl '><CustomLink to="/login">Login</CustomLink></li>
   </>
@@ -34,7 +35,11 @@ const Navbar = () => {
         {menuItem}
       </ul>
     </div>
-    <Link to='/' className="font-extrabold normal-case text-purple-300 lg:text-3xl "><h1>Digital setup service</h1></Link>
+    <div className='flex items-end'>
+    <Link to='/' className="font-extrabold normal-case text-black lg:text-3xl "><h1>Digital setup service</h1></Link>
+  <span className="indicator-item badge  badge-secondary ml-2"></span> 
+    </div>
+    
     {/* <Link to='/' className="font-extrabold normal-case text-lime-400 lg:text-4xl "><img src={logo} className="w-36" alt="" /></Link> */}
   </div>
   <div className="navbar-center hidden lg:flex">

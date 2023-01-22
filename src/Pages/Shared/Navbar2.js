@@ -12,7 +12,7 @@ const Navbar = () => {
     <li className='text-xl '><CustomLink to="/laptop">Laptop</CustomLink></li>
     <li className='text-xl '><CustomLink to="/computer">Computer</CustomLink></li>
     <li className='text-xl '><CustomLink to="/monitor">Monitor</CustomLink></li>
-    <li className='text-xl '><CustomLink to="/apple">Apple Macbook</CustomLink></li>
+    <li className='text-xl '><CustomLink to="/applemacbook">Apple Macbook</CustomLink></li>
     <li className='text-xl '><CustomLink to="/Printer">Printer</CustomLink></li>
     <li className='text-xl '><CustomLink to="/motherboard">MotherBoard</CustomLink></li>
     <li className='text-xl '><CustomLink to="/server">Server</CustomLink></li>

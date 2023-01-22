@@ -12,6 +12,7 @@ import Printer from "./Pages/Services/Printer";
 import Server from "./Pages/Services/Server";
 import MotherBoard from "./Pages/Services/MotherBoard";
 import Contact from "./Pages/Home/Contact";
+import Home from "./Pages/Home/Home";
 
 
 function App() {
@@ -20,15 +21,17 @@ function App() {
      <Navbar></Navbar>
      <Navbar2></Navbar2>
      <Routes>
+     <Route path='/' element={<Home/>}></Route>
+     <Route path='/home' element={<Home/>}></Route>
      <Route path='/contact' element={<Contact></Contact>}></Route>
-        <Route path="/login" element={<Login></Login>}></Route>
+      <Route path="/login" element={<Login></Login>}></Route>
      </Routes>
      
      <Routes>
       <Route path='/laptop' element={<Laptop></Laptop>}></Route>
       <Route path='/computer' element={<Computer></Computer>}></Route>
       <Route path='/monitor' element={<Monitor></Monitor>}></Route>
-      <Route path='/apple' element={<Apple></Apple>}></Route>
+      <Route path='/applemacbook' element={<Apple></Apple>}></Route>
       <Route path='/printer' element={<Printer></Printer>}></Route>
       <Route path='/server' element={<Server></Server>}></Route>
       <Route path='/motherboard' element={<MotherBoard></MotherBoard>}></Route>

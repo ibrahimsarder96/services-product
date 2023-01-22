@@ -11,15 +11,15 @@ const Apple = () => {
   <section>
  <div className='grid sm:grid-cols-1 lg:grid-cols-2 gap-6 snap-none'>
   <div>
-    <img className='ml-24 w-96' src={apple} alt="" />
+    <img className='ml-24 sm:w-56 lg:w-96' src={apple} alt="" />
   </div>
   <div>
-    <p className='text-accent text-justify'>
+    <p className='text-accent text-justify mx-5'>
     Get fast and reliable Apple MacBook and Mac device repair services from our certified technicians.
 We specialize in all types of Mac repairs, including screen replacement, battery replacement, logic board repair, and more.
 Our team has the skills and experience to fix any issue, whether it’s a software or hardware problem. Our repair services come with a warranty, ensuring your satisfaction. Trust us to get your Mac device running like new again and avoid costly replacements. Visit us today to schedule your MacBook and Mac devices repair services.
 <br/>
-<p  className='my-10'>
+<p  className='my-10 text-justify'>
 We have a nationwide service location with a skilled and international certified engineering team.
 </p>
 
