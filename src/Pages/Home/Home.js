@@ -13,13 +13,12 @@ import bg from '../../assets/bg/bg.jpg';
 const Home = () => {
   return (
     <div>
-      
       <section  style={{
       background: `url(${bg})`,
       backgroundSize: 'cover',
       
     }} className="h-screen">
-      <h1 className='lg:text-5xl lg:pt-80 lg:pl-80 sm:text-2xl text-purple-400 font-bold text-between text-center'>Digital Setup Service</h1>
+      <h1 className='lg:text-5xl lg:pt-80 lg:pl-80 sm:text-2xl text-purple-400 font-bold text-between text-center'><span className='text-secondary'>Digital </span> Setup Service</h1>
       </section>
       <h1 className='text-accent text-3xl font-bold text-center mt-10'>Which Repair Service Do You Need?</h1>
       <section>
