@@ -57,6 +57,13 @@ const Home = () => {
           </div>
         </div>
       </section>
+      <section>
+        <h1  className='text-accent text-center font-bold text-3xl mt-20'>What we do</h1>
+        <div>
+          <h1 className='text-accent text-xl font-bold mx-5'>Best Laptop Repair Service</h1>
+          <p className='text-accent  mx-5'>Digital Services Ltd. is the top provider of <span className='text-blue-400'><Link to='/laptop'>laptop repair services</Link></span> in Bangladesh. We are authorized by some of the most reputable brands in the industry, including HP, Dell, Acer, Toshiba, Lenovo, Sony, Samsung, Huawei, Xiaomi, Gigabyte, Dahua, and more.</p>
+        </div>
+      </section>
       <Footer></Footer>
     </div>
   );
