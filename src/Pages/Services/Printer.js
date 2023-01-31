@@ -12,7 +12,7 @@ const Printer = () => {
   <section>
  <div className='grid sm:grid-cols-1 lg:grid-cols-2 gap-6 snap-none'>
   <div>
-    <img className='mx-5 ' src={printer} alt="" />
+    <img className='ml-24 w-96' src={printer} alt="" />
   </div>
   <div>
     <p className='text-accent text-justify'>
