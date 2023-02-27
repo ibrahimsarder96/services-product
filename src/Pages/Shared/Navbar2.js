@@ -3,10 +3,7 @@ import React from 'react';
 import CustomLink from '../CustomLink/CustomLink';
 // import Loading from './Loading';
 
-
-
 const Navbar = () => {
-
 
   const menuItem = <>
     <li className='text-xl font-semibold'><CustomLink to="/laptop">Laptop</CustomLink></li>
