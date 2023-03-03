@@ -1,6 +1,5 @@
 
 import { Route, Routes } from "react-router-dom";
-
 import Login from "./Pages/Login/Login";
 import Navbar from "./Pages/Shared/Navbar";
 import Navbar2 from "./Pages/Shared/Navbar2";
@@ -17,7 +16,7 @@ import Home from "./Pages/Home/Home";
 
 function App() {
   return (
-    <div>
+    <div className="max-w-[1440px] mx-auto">
      <Navbar></Navbar>
      <Navbar2></Navbar2>
      <Routes>

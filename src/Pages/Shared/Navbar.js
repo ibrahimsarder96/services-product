@@ -7,7 +7,6 @@ const Navbar = () => {
   const menuItem = <>
     <li className='text-xl font-semibold'><CustomLink to="/">Home</CustomLink></li>
     <li className='text-xl font-semibold'><CustomLink to="/contact">Contact Us</CustomLink></li>
-    <li className='text-xl font-semibold'><CustomLink to="/login">Login</CustomLink></li>
   </>
 
   return (

@@ -1,4 +1,8 @@
 import React from 'react';
+import banner1 from '../../assets/banner/1.jpg';
+import banner2 from '../../assets/banner/2.jpg';
+import banner3 from '../../assets/banner/3.jpg';
+import BannerItem from './BannerItem';
 
 const Banner = () => {
   const bannerData = [
@@ -18,26 +22,8 @@ const Banner = () => {
       image: banner3,
       prev: 2,
       id: 3,
-      next: 4,
-    },
-    {
-      image: banner4,
-      prev: 3,
-      id: 4,
-      next: 5,
-    },
-    {
-      image: banner5,
-      prev: 4,
-      id: 5,
-      next: 6,
-    },
-    {
-      image: banner6,
-      prev: 5,
-      id: 6,
       next: 1,
-    },
+    }
   ]
   return (
     <div className="carousel w-full py-10">
